@@ -30,17 +30,14 @@
 * `apt-get upgrade -y`
 * `pkg install python -y`
 * `pkg install git -y`
-* `git clone https://github.com/Sir-Hamxza/Http-Flooder-.git`
+* `https://github.com/Sir-Hamxza/X-Flooder.git`
 * `pip install requirements.txt -r`
-* `pip install cloudscraper`
-* `pip install colorama`
-* `pip install pyfiglet`
-* `cd Http-Flooder-`
-* `python flood.py`
+* `cd X-Flooder`
+* `python zeb.py`
 * `ctrl + z` {for stopping the attack}
 ```
 [+]-- Now you need internet connection to continue further process...
-[+]-- Can show some error like can't connect , network refuses . Maybe it was because of the network connection or proxy server error.
+[+]-- Can show some error like can't connect , network refuses . Maybe it was because of the network connection or website server error.
 [+]-- Now you can add target URL as - https://example.com(eg) , Time (per second) - 60(eg) , Rps - 120(eg) , thread - 10000(eg)
 [+]-- You can add as your wish 
 [+]-- Note:- Don't delete any of the scripts 
