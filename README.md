@@ -30,7 +30,7 @@
 * `apt-get upgrade -y`
 * `pkg install python -y`
 * `pkg install git -y`
-* `https://github.com/Sir-Hamxza/X-Flooder.git`
+* `git clone https://github.com/Sir-Hamxza/X-Flooder.git`
 * `pip install requirements.txt -r`
 * `cd X-Flooder`
 * `python zeb.py`
