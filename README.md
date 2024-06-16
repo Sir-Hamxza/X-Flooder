@@ -31,7 +31,7 @@
 * `pkg install python -y`
 * `pkg install git -y`
 * `git clone https://github.com/Sir-Hamxza/X-Flooder.git`
-* `pip install requirements.txt -r`
+* `pip install -r requirements.txt`
 * `cd X-Flooder`
 * `python zeb.py`
 * `ctrl + z` {for stopping the attack}
