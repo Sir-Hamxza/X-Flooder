@@ -7,6 +7,7 @@
 ## AVAILABLE ON :
 
 * Termux
+* Ubuntu/Debian
 
 ### TESTED ON :
 
@@ -33,7 +34,7 @@
 * `git clone https://github.com/Sir-Hamxza/X-Flooder.git`
 * `cd X-Flooder`
 * `pip install -r requirements.txt`
-* `python zeb.py`
+* `python project.py`
 * `ctrl + z` {for stopping the attack}
 ```
 [+]-- Now you need internet connection to continue further process...
@@ -45,7 +46,7 @@
 ## USAGE OPTIONS [Termux] :
 
 
-### If there is an issue in this tool, contact us on Instagram @sir.zebit or in telegram @zebit_leford
+### If there is an issue in this tool, contact us on Instagram @fr.hamxa or in telegram @AlAhadOwner
 <p style="color:purple"><b>Connect With Us:</b></p>
 
 
