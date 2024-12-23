@@ -47,7 +47,7 @@
 
 
 ### If there is an issue in this tool, contact us on Instagram @fr.hamxa or in telegram @AlAhadOwner
-<p style="color:purple"><b>Connect With Us:</b></p>
+<p style="color:purple"><b>Connect With Us:t.me/AlAhadOwner</b></p>
 
 
 <h3 style="color:purple"> THANKS FOR USING OUR TOOL </h
