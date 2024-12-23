@@ -2,7 +2,7 @@
 
 ## ABOUT TOOL :
 
- X-Flooder is a python coded script which carry out http flood attack , HTTP flood attack is a type of volumetric distributed denial-of-service (DDoS) attack designed to overwhelm a targeted server with HTTP requests, containing cloudflare bypass , WAF protection bypass , no need to worry about ip blocking and cloudflare protected website.
+ X-Flooder is a python coded script which carry out http flood attack , HTTP flood attack is a type of volumetric distributed denial-of-service (DDoS) attack designed to overwhelm a targeted server with HTTP requests. Layer 7 attacking method.
 
 ## AVAILABLE ON :
 
@@ -12,6 +12,7 @@
 ### TESTED ON :
 
 * Termux
+* Ubuntu/Debian
 
 ### REQUIREMENTS :
 * high speed internet
@@ -46,6 +47,6 @@
 ## USAGE OPTIONS [Termux] :
 
 
-### If there is an issue in this tool, contact us on Instagram @fr.hamxa or in telegram @AlAhadOwner
+### If there is an issue in this tool, contact us on Instagram @mahdi.zaidi72 or in telegram @AlAhadOwner
 
 <h3 style="color:purple"> THANKS FOR USING OUR TOOL </h>
